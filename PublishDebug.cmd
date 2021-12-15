@@ -1,0 +1,3 @@
+rmdir /s /q Publish
+msbuild.exe KeyLockIndicators.sln /t:Clean /p:Configuration=Debug /p:TargetFramework=net6.0-windows10.0.17763.0 /p:Platform=x64 /p:RuntimeIdentifier=win-x64 /p:PublishSingleFile=False /p:SelfContained=False /p:PublishProtocol=FileSystem /p:PublishReadyToRun=False /p:PublishTrimmed=False /p:PublishDir=..\Publish
+msbuild.exe KeyLockIndicators.sln /t:Publish /p:Configuration=Debug /p:TargetFramework=net6.0-windows10.0.17763.0 /p:Platform=x64 /p:RuntimeIdentifier=win-x64 /p:PublishSingleFile=False /p:SelfContained=False /p:PublishProtocol=FileSystem /p:PublishReadyToRun=False /p:PublishTrimmed=False /p:PublishDir=..\Publish

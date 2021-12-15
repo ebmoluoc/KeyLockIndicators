@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KeyLockIndicators", "KeyLockIndicators\KeyLockIndicators.csproj", "{6723C919-227D-48CC-80CA-8DC1436CC67F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KeyLockIndicators.Launcher", "KeyLockIndicators.Launcher\KeyLockIndicators.Launcher.csproj", "{EF86AC70-6907-4E93-BB0B-C32C5DD7EE55}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KeyLockIndicators.Notifier", "KeyLockIndicators.Notifier\KeyLockIndicators.Notifier.csproj", "{A1B22F7D-2363-4BC9-9D90-C4902359C2AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KeyLockIndicators.Toaster", "KeyLockIndicators.Toaster\KeyLockIndicators.Toaster.csproj", "{51FA5ED0-EECD-46F4-A8FD-ED6B696A8606}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6723C919-227D-48CC-80CA-8DC1436CC67F}.Debug|x64.ActiveCfg = Debug|x64
+		{6723C919-227D-48CC-80CA-8DC1436CC67F}.Debug|x64.Build.0 = Debug|x64
+		{6723C919-227D-48CC-80CA-8DC1436CC67F}.Release|x64.ActiveCfg = Release|x64
+		{6723C919-227D-48CC-80CA-8DC1436CC67F}.Release|x64.Build.0 = Release|x64
+		{EF86AC70-6907-4E93-BB0B-C32C5DD7EE55}.Debug|x64.ActiveCfg = Debug|x64
+		{EF86AC70-6907-4E93-BB0B-C32C5DD7EE55}.Debug|x64.Build.0 = Debug|x64
+		{EF86AC70-6907-4E93-BB0B-C32C5DD7EE55}.Release|x64.ActiveCfg = Release|x64
+		{EF86AC70-6907-4E93-BB0B-C32C5DD7EE55}.Release|x64.Build.0 = Release|x64
+		{A1B22F7D-2363-4BC9-9D90-C4902359C2AA}.Debug|x64.ActiveCfg = Debug|x64
+		{A1B22F7D-2363-4BC9-9D90-C4902359C2AA}.Debug|x64.Build.0 = Debug|x64
+		{A1B22F7D-2363-4BC9-9D90-C4902359C2AA}.Release|x64.ActiveCfg = Release|x64
+		{A1B22F7D-2363-4BC9-9D90-C4902359C2AA}.Release|x64.Build.0 = Release|x64
+		{51FA5ED0-EECD-46F4-A8FD-ED6B696A8606}.Debug|x64.ActiveCfg = Debug|x64
+		{51FA5ED0-EECD-46F4-A8FD-ED6B696A8606}.Debug|x64.Build.0 = Debug|x64
+		{51FA5ED0-EECD-46F4-A8FD-ED6B696A8606}.Release|x64.ActiveCfg = Release|x64
+		{51FA5ED0-EECD-46F4-A8FD-ED6B696A8606}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8AEE2A7-1BC9-4C99-B8E4-D4D36D9E6638}
+		        SolutionGuid = {B32799F2-E751-4D92-A69F-4E44F5F5EA24}
+	EndGlobalSection
+EndGlobal
